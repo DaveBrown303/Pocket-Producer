@@ -1,0 +1,667 @@
+
+body {
+	background-color:#202020;
+	font-family: 'Arial';
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top:-50px;
+}
+
+h1 {
+	color:#006BB2;
+	padding: 10px;
+	font-size: 60px;
+  font-family:"Arial Black";
+ 
+}
+
+sub {
+	padding: 20px;
+	color:#006BB2;
+	font-size: 30px;
+	font-family: Arial;
+ }
+
+p {
+	font-family:"Arial";
+	font-size: 20px;
+	color:#E0E0E0;
+	padding: 10px;
+	border-radius: 20px; 
+}
+
+h2 {
+  font-family: "Arial";
+  color:#E0E0E0;
+  font-size: 30px;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Arial";
+  color:#E0E0E0;
+  font-size: 20px;
+  padding: 10px;
+}
+
+h4 {
+  font-family: "Arial";
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 3px;
+}
+
+h5 {
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+li {
+  padding: 10px;
+  color:#E0E0E0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+span {
+  font-size: 42px;
+}
+  
+
+      #top_bar{
+        margin: 0px;
+        padding: 0px;
+        background-image:url("music_background.jpg");
+      }
+
+      #profile {
+        font-family:"Arial";
+        font-size: 20px;
+        background-color: #00406B;
+        margin: 20px;
+        width: 98%;
+        border-radius: 20px;
+        min-height: 650px;
+      }
+
+      #all_text {
+        margin-left:550px;
+        padding: 20px;
+      }
+
+      #main_info {
+        margin: 5px;
+        margin-top: 50px;
+        padding: 20px;
+        background-color:   ;
+        border-radius: 20px;
+      }
+
+      #followers {
+        margin: 20px;
+        margin-right: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        float: right;
+        background-color:#00A3CC;
+      }
+
+      #basic_info {
+        margin: 15px;
+        padding: 5px;
+        font-size: 15px;
+        background-color: #00A3CC;
+        border-radius: 20px;
+      }
+
+      #footer {
+        margin: 20px;
+        border-radius: 20px;
+        background-color: #00406B;
+        text-align: center;
+      }
+      #profile_pic {
+        float:left;
+        padding: 20px;
+        padding-top: 25px;
+        border-radius: 30px;
+      }
+
+      #logo_pic {
+        float:right;
+        padding-right: 10px;
+        border-radius: 25px;
+      }
+
+      #background_pic {
+        padding: none;
+        margin: auto;
+
+      }
+
+      .profile_button1 {
+        float: left;
+        text-align:center;
+        color:white;
+        background-color: #2E9AFE;
+        width: 902px;
+        height: 60px;
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 0px;
+        border-style: outset;
+        border-width: 2px;
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+      }
+
+      .profile_button2 {
+        float: right;
+        text-align:center;
+        color:white;
+        background-color: #2E9AFE;
+        width: 902px;
+        height: 60px;
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 0px;
+        border-style: outset;
+        border-width: 2px;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+      }
+
+
+
+
+
+#AM_Sidebar {
+  float: left;
+  background-color: #00406B;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-size: 30px;
+  font-color: #000000;
+  text-align: center;
+  max-width: 250px;
+  min-width: 250px;
+}
+
+#Track_Sidebar {
+  float: center;
+  background-color: #202023;
+  padding: 10px;
+  margin: 5px;
+  margin-right: 0px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-family: Arial;
+  font-size: 15px;
+  font-color: #FFFFFF;
+  min-height: 200px;
+}
+
+#Track_DetailsL {
+  float: left;
+  background-color: #202023;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-family: Arial;
+  font-size: 7px;
+  font-color: #FFFFFF;
+  min-height: 100px;
+  min-width: 85px;
+}
+
+#Track_DetailsR {
+  float: right;
+  background-color: #202023;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-family: Arial;
+  font-size: 7px;
+  font-color: #FFFFFF;
+  min-height: 100px;
+  min-width: 85px;
+
+}
+
+#TrackBar_First {
+  float: center ;
+  background-color: #5D5D5D;
+  padding: 5px;
+  margin-top: 65px;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-family: Arial;
+  font-size: 10px;
+  min-height: 200px;
+  min-width: 1400px;
+}
+
+#TrackBar {
+  float: center;
+  background-color: #5D5D5D;
+  padding: 5px;
+  margin-top: 17px;
+  border-radius: 1px;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-family: Arial;
+  font-size: 10px;
+  min-height: 200px;
+  min-width: 1400px;
+}
+
+#Audio_Bar {
+  float: right;
+  background-color: #00406B;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  border-style: outset;
+  font-size: 30px;
+  font-color: #000000;
+  text-align: center;
+  min-width: 1px;
+  max-width: 210px;
+  min-height: 1415px; 
+}
+
+#Audio_Knob {
+  float: center;
+}
+
+#Audio_Bars {
+  float: center;
+  margin: 2px;
+  min-height: 1370px;
+  max-width: 200px;
+  border-style: outset;
+  border-width: 1px;
+}
+
+#Single_Track {
+  padding: 2px;
+}
+
+
+
+
+
+      #Recording_Pic {
+        float: center;
+        margin: 5px;
+      }
+
+
+
+      #Audio_Left {
+        float: left;
+        min-height: 1300px;
+        min-width: 100px;
+        max-width: 135px;
+      }
+        
+
+      #Audio_Right {
+        float: right;
+        min-height: 1300px;
+        min-width: 100px;
+        max-width: 135px;
+      }
+
+      #Audio_Track {
+        float: center;
+        border-style: outset;
+        border-width: 2px;
+      }
+
+
+
+#About {
+  background-color: #00406B;
+  text-align: center;
+  min-width: 1000px;
+  min-height: 700px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+#About_Header {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #202020;
+  border-radius: 10px;
+  text-align: center; 
+}
+
+#About_Text {
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #202020;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#My_Music {
+  float: left;
+  border-style:outset;
+  border-width: 2px;
+  margin: 15px;
+  background-color: #00A3CC;
+}
+
+#Music_Head {
+  float: center;
+  margin: 25px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding: 20px;
+  background-color: #00406B;
+  width: 800px;
+  height: 100px;
+  border-radius: 20px;
+  border-style: outset;
+  border-width: 1px; 
+  text-align: center;
+}
+
+#Music_Base {
+  float: left;
+  overflow-y: scroll;
+  border-style: inset;
+  border-width: 3px;
+  margin-left: 65px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 800px;
+  height: 600px;
+  background-color: #202020;
+}
+
+#Recordings {
+  float: right;
+  border-style:outset;
+  border-width: 2px;
+  margin: 15px;
+  background-color: #00A3CC;
+}
+
+#Recordings_Head {
+  float: center;
+  margin: 25px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: #00406B;
+  width: 800px;
+  height: 100px;
+  border-radius: 20px;
+  border-style: outset;
+  border-width: 1px;
+  text-align: center;
+}
+
+#Recordings_Base {
+  float: right;
+  overflow-y: scroll;
+  border-style: inset;
+  border-width: 3px;
+  margin-right: 65px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 800px;
+  height: 600px;
+  background-color: #202020;
+}
+
+
+    
+    #Lessons_Button {
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      margin-left: 50px;
+      padding: 10px;
+      text-align: center;
+      float: left;
+      color: white;
+      width: 550px;
+      height: 550px;
+      background-color: #00406B;
+    }
+
+    #Tips_Button {
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      margin-left: 50px;
+      padding: 10px;
+      text-align: center;
+      float: left;
+      color: white;
+      width: 550px;
+      height: 550px;
+      background-color: #00A3CC;
+    }
+
+    #Lyrics_Button {
+      background-color: #00A3CC;
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      float: left;
+      color: white;
+      width: 550px;
+      height: 550px;
+    }
+
+    #Notations_Button {
+      background-color: #00406B;
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center; 
+      float: left;     
+      color: white;
+      width: 550px;
+      height: 550px;
+    }
+
+    #Scales_Button {
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      float: left;
+      width: 550px;
+      height: 550px;
+      background-color: #00406B;
+    }
+
+    #Chords_Button  {
+      border-radius: 25px;
+      border-style: outset;
+      border-width: 3px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      float: left;
+      width: 550px;
+      height: 550px;
+      background-color: #00A3CC;
+    }
+
+    #Button_Pic {
+      float: center;
+      width: 400px;
+      height: 400px;
+    }
+
+
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul, li,
+#cssmenu ul, li, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 5px;
+  color: #b8b8b8;
+}
+#cssmenu.align-right ul li {
+  float: right;
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.22);
+}
+#cssmenu.align-right ul li a {
+  border-right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+#cssmenu ul {
+  background: #222222;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+  background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu ul li {
+  float: left;
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.22);
+  z-index: 1;
+}
+#cssmenu ul li::after {
+  content: '';
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  border-top-left-radius: 50% 4px;
+  border-top-right-radius: 50% 4px;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #222222 61%, #222222 100%);
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  z-index: 2;
+  bottom: 10px;
+  bottom: 26px;
+}
+#cssmenu ul li a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #b8b8b8;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 3;
+}
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+  color: #ffffff;
+}
+#cssmenu ul li:hover,
+#cssmenu ul li.active {
+  background: #006aa3;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(bottom, #003856 0%, #006aa3 50%, #008bd6 51%, #0088d1 78%, #70cdff 100%);
+  background: -webkit-linear-gradient(bottom, #003856 0%, #006aa3 50%, #008bd6 51%, #0088d1 78%, #70cdff 100%);
+  background: -o-linear-gradient(bottom, #003856 0%, #006aa3 50%, #008bd6 51%, #0088d1 78%, #70cdff 100%);
+  background: -ms-linear-gradient(bottom, #003856 0%, #006aa3 50%, #008bd6 51%, #0088d1 78%, #70cdff 100%);
+  background: linear-gradient(to top, #003856 0%, #006aa3 50%, #008bd6 51%, #0088d1 78%, #70cdff 100%);
+}
+#cssmenu ul li:hover::after,
+#cssmenu ul li.active::after {
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #006aa3 61%, #006aa3 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #006aa3 61%, #006aa3 100%);
+  background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #006aa3 61%, #006aa3 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 60%, #006aa3 61%, #006aa3 100%);
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+#searchform{
+    margin:7px;
+}
+
+#searchform-item input[type="text"] {
+    width: auto;
+}
+
+#searchform-item {
+    float: right;
+}
+
+get_search_form();    
+
+
+    
